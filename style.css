@@ -6,3 +6,16 @@
   border: 1px solid black;
   height: 150px;
 }
+
+.col-xs-4 {
+  text-align: center;
+}
+
+.input-button {
+  width: 150px;
+  height: 145px;
+  vertical-align: middle;
+  font-size: 100px;
+  color: red;
+
+}
