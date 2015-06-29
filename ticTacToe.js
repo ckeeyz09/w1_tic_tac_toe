@@ -12,6 +12,15 @@ window.addEventListener("DOMContentLoaded", function() {
   var sq8 = document.getElementById("bottom-middle");
   var sq9 = document.getElementById("bottom-right");
 
+  var resetButton = document.getElementById("reset-button");
+
+  var resetGame = function() {
+    resetButton.addEventListener("click", function(event){
+      reset();
+    })
+  }
+  resetGame();
+
   var changeText = function() {
     sq1.addEventListener("click", function(event){
       addPosition(this);
@@ -161,6 +170,4 @@ function checkWinner() {
   //make variable for reset button
   //set reset button to hide both X and O and reset for loop
 
-
-});
 

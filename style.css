@@ -19,3 +19,9 @@
   color: red;
 
 }
+.reset-button {
+  width: 550px;
+  height: 40 px;
+  font-size: 20px;
+  color: black;
+}
