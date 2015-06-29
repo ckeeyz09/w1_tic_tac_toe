@@ -131,6 +131,27 @@ function checkWinner() {
       reset();
     }
   }
+    function checkStalemate() {
+      if (sq1.innerText != "" && sq2.innerText != "" && sq3.innerText != "" && sq4.innerText != "" && sq5.innerText != "" && sq6.innerText != "" && sq7.innerText != "" && sq8.innerText != "" && sq9.innerText != "") {
+        alert("Stalemate, press OK to try again");
+        reset();
+      }
+  }
+
+    var reset = function() {
+    window.xTurn = true
+    sq1.innerText = ""
+    sq2.innerText = ""
+    sq3.innerText = ""
+    sq4.innerText = ""
+    sq5.innerText = ""
+    sq6.innerText = ""
+    sq7.innerText = ""
+    sq8.innerText = ""
+    sq9.innerText = ""
+  }
+});
+
     //set variable for square picker
     //for loop to determine whose turn it is
 
